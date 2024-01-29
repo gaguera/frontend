@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(135deg, #f3bd49c7 0%, #f36767 100%);
+}
+
+.curriculo {
+    display: flex;
+    text-align: left;
+}
+
+.foto {
+    flex: 0 0 25%;
+    background: white;
+    padding: 20px;
+    width: 100px;
+}
+
+.foto img {
+    max-width: 55%;
+    max-height: 100%;
+    object-fit: cover;
+
+}
+
+.informacoes {
+    flex: 1;
+    padding: 20px;
+    background: white;
+}
+
+h1, h2 {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin-bottom: 5px;
+
+}
+
