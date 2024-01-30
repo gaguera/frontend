@@ -17,8 +17,8 @@ body {
 }
 
 .foto img {
-    max-width: 55%;
-    max-height: 100%;
+    max-width: 34%;
+    max-height: 77%;
     object-fit: cover;
 
 }
@@ -40,6 +40,22 @@ ul {
 
 li{
     margin-bottom: 5px;
-
 }
 
+.redes-sociais {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.redes-sociais a {
+    margin-right: 10px;
+}
+
+.redes-sociais a img {
+    border: 2px solid black;
+    height: 50px;
+    width: 100px;
+}
